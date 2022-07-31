@@ -1,0 +1,25 @@
+body {
+    overflow:hidden;
+    background-color: #111;
+    padding:0;
+    margin:0;
+  }
+  #playContainer {
+    height:98vh;
+    display: grid;
+    place-items: center;
+
+  }
+  img {
+    width:100px;
+    height:100px;
+  }
+  #play {
+    transition: all 0.5s;
+    opacity: 0.8;
+  }
+  #play:hover {
+    opacity: 1;
+    transform: scale(1.4);
+    transition: all 0.5s;
+  }
