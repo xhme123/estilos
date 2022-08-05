@@ -47,31 +47,8 @@ body, html{
     background-color:#000;
     opacity:.7;content:'';
 }
-.navbar.is-dark{
-    border-bottom:none;
-    background-color:#282248;
-    font-size:1.2rem;
-    padding:10px 0;
-}
-.navbar.is-dark .navbar-brand .navbar-link.is-active,.navbar.is-dark .navbar-brand .navbar-link:hover,.navbar.is-dark .navbar-brand>a.navbar-item.is-active,.navbar.is-dark .navbar-brand>a.navbar-item:hover{
-    background-color:initial!important;
-    color:initial!important;
-}
-.navbar.is-dark input::-webkit-input-placeholder{
-    color:#b6bbbb
-}
-.navbar.is-dark input:-ms-input-placeholder{
-    color:#b6bbbb
-}
-.navbar.is-dark input::placeholder{
-    color:#b6bbbb
-}
-.navbar.is-dark input.input{
-    background-color:#111;
-    color:#fff;
-    outline:none;
-    border-color:#ff7d13
-}
+
+
 .page-footer.hero.is-dark{
     background-color:#111;
     border-top:1px solid rgba(255,125,18,.5)
